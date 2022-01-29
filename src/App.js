@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="main">
-        <div>
+        <div className="heading">
           <h3>React CRUD Operations</h3>
         </div>
 

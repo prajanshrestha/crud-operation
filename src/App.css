@@ -1,21 +1,44 @@
-.main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+* {
+  background-color: #222222;
+  color: cornsilk;
 }
 
-.button-submit{
-    cursor: pointer;
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.button-update{
-    background-color: green;
-    cursor: pointer;
+.button-update {
+  background-color: green;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
-.button-delete{
-    background-color: red;
-    cursor: pointer;
+.button-delete {
+  background-color: red;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-submit {
+  background-color: green;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-update {
+  background-color: green;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.labels {
+  padding: 20px;
 }

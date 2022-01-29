@@ -30,7 +30,7 @@ export default function Update() {
     <div>
       <Form>
         <Form.Field>
-          <label>First Name</label>
+          <label className="labels">First Name</label>
           <input
             name="firstName"
             value={firstName}
@@ -39,7 +39,7 @@ export default function Update() {
           />
         </Form.Field>
         <Form.Field>
-          <label>Last Name</label>
+          <label className="labels">Last Name</label>
           <input
             name="lastName"
             value={lastName}
@@ -47,7 +47,12 @@ export default function Update() {
             onChange={(e) => setLastName(e.target.value)}
           />
         </Form.Field>
-        <Button type="submit" className="button-submit" onClick={sendDataToAPI}>
+        <Button
+          className="button-update"
+          type="submit"
+          className="button-submit"
+          onClick={sendDataToAPI}
+        >
           Update
         </Button>
       </Form>
