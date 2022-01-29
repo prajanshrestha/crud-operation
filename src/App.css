@@ -1,6 +1,7 @@
 * {
   background-color: #222222;
   color: cornsilk;
+  margin: 0px;
 }
 
 .main {
@@ -61,4 +62,13 @@
 
 .labels {
   padding: 20px;
+}
+
+.page-not-found{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

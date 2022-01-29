@@ -1,9 +1,10 @@
 import "./App.css";
 import Create from "./components/create/Create";
 import Read from "./components/read/Read";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Switch} from "react-router-dom";
 import Update from "./components/update/Update";
 import Delete from "./components/delete/Delete";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           <Route path="/read" element={<Read />} />
           <Route path="/update" element={<Update />} />
           <Route path="/delete" element={<Delete />} />
+
+          {/* Page not found */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
