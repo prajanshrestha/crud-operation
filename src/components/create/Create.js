@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Form } from "semantic-ui-react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Create() {
   const navigate = useNavigate();
@@ -38,14 +39,14 @@ export default function Create() {
             onChange={(e) => setLastName(e.target.value)}
           />
         </Form.Field>
-        <Button
-          className="button-submit"
-          type="submit"
-          className="button-submit"
-          onClick={sendDataToAPI}
-        >
+        <Button className="button-submit" type="submit" onClick={sendDataToAPI}>
           Submit
         </Button>
+        <Link to="/read">
+          <Button className="button-go-to-list" type="submit">
+            Go to List
+          </Button>
+        </Link>
       </Form>
     </div>
   );

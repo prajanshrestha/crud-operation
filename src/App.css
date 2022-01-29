@@ -35,6 +35,20 @@
   border-radius: 10px;
 }
 
+.button-go-to-list{
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-back{
+    background-color: grey;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 .heading {
   margin-bottom: 40px;
 }

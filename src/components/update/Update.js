@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button, Form } from "semantic-ui-react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Update() {
   const navigate = useNavigate();
@@ -50,11 +51,18 @@ export default function Update() {
         <Button
           className="button-update"
           type="submit"
-          className="button-submit"
           onClick={sendDataToAPI}
         >
           Update
         </Button>
+        <Link to="/read">
+          <Button
+            className="button-back"
+            type="submit"
+          >
+            Back
+          </Button>
+        </Link>
       </Form>
     </div>
   );
