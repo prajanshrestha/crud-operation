@@ -49,6 +49,12 @@
     cursor: pointer;
 }
 
+.button-create{
+    background-color: grey;
+    border-radius: 10px;
+    margin-left: 470px;
+}
+
 .heading {
   margin-bottom: 40px;
 }

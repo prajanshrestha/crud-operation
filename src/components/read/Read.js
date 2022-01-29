@@ -83,6 +83,11 @@ export default function Read() {
           })}
         </Table.Body>
       </Table>
+      <Link to="/">
+        <button type="submit" className="button-create">
+          Create new
+        </button>
+      </Link>
     </div>
   );
 }

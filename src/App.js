@@ -1,7 +1,7 @@
 import "./App.css";
 import Create from "./components/create/Create";
 import Read from "./components/read/Read";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Update from "./components/update/Update";
 import Delete from "./components/delete/Delete";
 
